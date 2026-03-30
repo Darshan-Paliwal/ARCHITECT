@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;700&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#474747",
+              "secondary-container": "#e4e2e1",
+              "outline": "#7c7766",
+              "surface-container": "#f0eded",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              "background": "#fcf9f8",
+              "error": "#ba1a1a",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-highest": "#e5e2e1",
+              "outline-variant": "#cdc6b3",
+              "secondary-fixed-dim": "#c8c6c5",
+              "on-tertiary-fixed-variant": "#464746",
+              "surface-container-low": "#f6f3f2",
+              "surface-variant": "#e5e2e1",
+              "primary-container": "#cdad88",
+              "on-surface-variant": "#4b4738",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#c7c6c5",
+              "on-tertiary-fixed": "#1a1c1b",
+              "tertiary": "#5e5e5d",
+              "on-tertiary": "#ffffff",
+              "surface-container-high": "#eae7e7",
+              "primary-fixed": "#ffddb6",
+              "on-secondary-fixed": "#1b1c1c",
+              "inverse-on-surface": "#f3f0ef",
+              "on-secondary": "#ffffff",
+              "tertiary-fixed": "#e3e2e0",
+              "inverse-primary": "#e2c19b",
+              "on-tertiary-container": "#444544",
+              "tertiary-container": "#b3b3b1",
+              "on-primary-fixed-variant": "#594325",
+              "on-error": "#ffffff",
+              "inverse-surface": "#313030",
+              "primary-fixed-dim": "#e2c19b",
+              "on-secondary-container": "#656464",
+              "on-primary-container": "#574123",
+              "primary": "#735a3a",
+              "surface-dim": "#dcd9d9",
+              "on-background": "#1c1b1b",
+              "on-surface": "#1c1b1b",
+              "surface-tint": "#735a3a",
+              "surface-bright": "#fcf9f8",
+              "secondary-fixed": "#e4e2e1",
+              "surface": "#fcf9f8",
+              "secondary": "#5f5e5e",
+              "on-primary-fixed": "#291801"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            background: rgba(252, 249, 248, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container/30">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 py-8 bg-[#fcf9f8]/80 dark:bg-[#1c1b1b]/80 backdrop-blur-xl">
+<div class="text-2xl font-bold tracking-[0.2em] text-[#1c1b1b] dark:text-[#fcf9f8]">MONOLITH</div>
+<div class="hidden md:flex gap-12 font-['Noto_Serif'] font-light tracking-tight">
+<a class="text-[#735a3a] border-b border-[#735a3a] pb-1 hover:opacity-100 transition-opacity duration-300" href="#">Work</a>
+<a class="text-[#1c1b1b] dark:text-[#fcf9f8] opacity-60 hover:opacity-100 transition-opacity duration-300" href="#">Studio</a>
+<a class="text-[#1c1b1b] dark:text-[#fcf9f8] opacity-60 hover:opacity-100 transition-opacity duration-300" href="#">Journal</a>
+<a class="text-[#1c1b1b] dark:text-[#fcf9f8] opacity-60 hover:opacity-100 transition-opacity duration-300" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-[#1c1b1b] dark:text-[#fcf9f8] opacity-60 hover:opacity-100 transition-opacity">dark_mode</button>
+<button class="bg-primary text-on-primary px-8 py-3 text-sm tracking-widest uppercase hover:opacity-90 active:scale-95 transition-all">Inquire</button>
+</div>
+</nav>
+<main class="relative">
+<!-- Hero Section -->
+<section class="h-screen w-full relative overflow-hidden flex items-end pb-24 px-12">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Modern black minimalist architectural pavilion in a misty Kyoto forest at twilight with soft ambient lighting illuminating charred wood textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD12kW-FxM1_1irEcoZ7WnAuj2MD2n1Jv9QOEL6m0MWYvvrbKyBRg0n6XLr3lecJDO1nC-wZU7j92b1vYXj2lvM2_4VScXjOfEf8dace6U-z6OEYQmV9WNP7hwrDT6KFGrc_kLO_IP-wRKLADiu9oykCQwgjA6t28nF4_MbF25Lei2TMqe4ykY71Gaebpy7K4Ku8Bcib1dxYuvgGLXMGIYlj6f34LJ7OJTbTUSPI7iSZ7lOKcnvjmQtpQp_QmxSb3QxQvXNyIv3"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/60 to-transparent"></div>
+</div>
+<div class="relative z-10 w-full flex flex-col md:flex-row justify-between items-end gap-12">
+<div class="max-w-4xl">
+<span class="font-label text-sm uppercase tracking-[0.2em] text-surface mb-4 block">Kyoto, Japan</span>
+<h1 class="font-headline text-5xl md:text-8xl text-surface leading-[1.1] font-light">The Obsidian Pavilion</h1>
+</div>
+<div class="hidden md:block">
+<div class="flex items-center gap-4 text-surface/80 group cursor-pointer">
+<span class="font-label text-xs uppercase tracking-widest">Explore Architecture</span>
+<span class="material-symbols-outlined group-hover:translate-y-1 transition-transform">south</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Specifications -->
+<section class="py-32 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-outline-variant/20">
+<div class="flex flex-col gap-2">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Year</span>
+<span class="font-headline text-2xl text-on-background">2024</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Status</span>
+<span class="font-headline text-2xl text-on-background">Completed</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Size</span>
+<span class="font-headline text-2xl text-on-background">320 m²</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Typology</span>
+<span class="font-headline text-2xl text-on-background">Private Cultural Center</span>
+</div>
+</section>
+<!-- Narrative Narrative Section -->
+<section class="py-32 px-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-5">
+<h2 class="font-headline text-4xl lg:text-5xl leading-tight text-on-background mb-8">A dialogue between shadow and silence.</h2>
+<div class="h-px w-24 bg-primary mb-8"></div>
+</div>
+<div class="lg:col-span-6 lg:col-start-7">
+<p class="font-body text-lg leading-relaxed text-secondary mb-8">
+                    The Obsidian Pavilion emerges from the dense forest of Kyoto as a monolithic intervention. Drawing inspiration from the traditional Japanese art of Shou Sugi Ban, the exterior is clad in heavily charred cedar, providing a resilient and light-absorbing facade that grounds the structure within its natural environment.
+                </p>
+<p class="font-body text-lg leading-relaxed text-secondary">
+                    Internally, the project explores the interplay of volcanic glass and refined timber. Dark, polished obsidian surfaces reflect the surrounding moss gardens, blurring the boundary between the built form and the wild landscape. Large-scale structural glass panels allow the seasons to dictate the interior atmosphere, creating a sanctuary of shifting light and profound stillness.
+                </p>
+</div>
+</section>
+<!-- Asymmetric Gallery -->
+<section class="px-12 pb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<!-- Large Bleed Image -->
+<div class="md:col-span-8 group relative overflow-hidden bg-surface-container-low">
+<img class="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Interior view of a minimalist room with black walls, floor-to-ceiling glass windows overlooking a Japanese moss garden, and soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe9Nkr_J23QUca8XWXYpL8SW2rJH4GPXXg2snYeoMJnnnYya2T3Oo6TJ7nj_3PtEl4U7lflgAOUkNiMOo_MgxP-S0wk4_e1P-Ge4vxoJcSNYkQCzLXjRq0mkP9fALbldD-Dc3rlZD40LI9FvO4Wg54poCsB7gE4h2SCRIPmjU6Ll8XeDVgdPCeIT0SKYlCamAE_YyiIJOQWgJ_SvgG-2TVqdxqZayyXPjqIVYuQZVVa3__I-40LGNDEVvTdwLEnP0lv-ELUPac"/>
+</div>
+<!-- Offset Vertical Image -->
+<div class="md:col-span-4 mt-24 group relative overflow-hidden bg-surface-container-low">
+<img class="w-full aspect-[3/4] object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close-up of charred wood texture with deep obsidian-like sheen and sharp architectural lines under dramatic shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5_TgxAU4RhctNjjm6e3n9DqF_R-0DfgpegaJZ4-5bJAcyTJ2Pvc1rnU6H9DuI7oEWcavshJrpbcV2zUhIu0LFPiK2F740gwUG6Eawa3Ti0JiMZ3Wbufhc0EgCx_5ut_8jSQ1giUmzu81eBUFlmhERUAm5jINOck21ipL5OKuUeWLwkBifHaS5zGnkwJdnlhPqhYoM0tix8w8taMt8eJLeSUZutRFCMQfV-618LW1xe91n7CYIAgbfXXhn2Nd0MCMKnItfNWh5"/>
+</div>
+<!-- Third Landscape Image -->
+<div class="md:col-span-5 md:col-start-2 group relative overflow-hidden bg-surface-container-low">
+<img class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Low angle architectural shot showing the sharp roofline of a black minimalist building against a clear twilight sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa1s7iSeU810QK5lgRd8cLe5w0ZFSUoZBzzIdABp4Pn0jMItIlvxjIg3leHXge4H0awwNm2yJqUaOReNPaEN77oX55z1-shgNfdUqhg_kdM7NhTzNK40Wd6nMXtFL_kjE_qFTzpd8F9QzozkOGx6AfXA0Sy0INJ-QQTYb98i-YHHNoqt7bvK7YLfsY1P2LW36KCwD4fDxlkhmmEG70WsJjBWZKQvMw7ACq1HWEP4jGEHFEUXNzrUcgLlCB1Yno-mslNa8q8ND9"/>
+</div>
+<!-- Final Detailed Shot -->
+<div class="md:col-span-6 group relative overflow-hidden bg-surface-container-low">
+<img class="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Abstract view of glass and metal architectural joints with reflections of green leaves in the dark polished surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJaU-5yKd_wrm_dPcPSp8NpeEEKpnPMI3LA1Mk3Rv8YCEhyn7Wq7PvbsrGi1YG0wXLLx-O_q9_tcTFdhiM1FoNWgyl6sg62CKJJPNibBdHOEBVwE-cJDjHsTLkxmEXb1X39PT5iCGGIbcSnESjZaSpDedR9Npk29AjUtgeQXblDf2rCZEXepm-3prIQc_dYqPgbiCxm4TRbVoP52HwlgttSVMU8TmnQ-wmbxhzOhd1knFjpchhDbvPYDnb0M2i9xLi8JT3RAVf"/>
+</div>
+</div>
+</section>
+<!-- Previous/Next Navigation -->
+<section class="bg-surface-container-low py-32 px-12">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-24">
+<a class="group flex flex-col items-start gap-4 flex-1" href="#">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">west</span> Previous Project
+                    </span>
+<h4 class="font-headline text-3xl md:text-4xl text-on-background opacity-40 group-hover:opacity-100 transition-opacity">The Lunar Gallery</h4>
+</a>
+<div class="hidden md:block w-px h-24 bg-outline-variant/20"></div>
+<a class="group flex flex-col items-end gap-4 flex-1 text-right" href="#">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary flex items-center gap-2">
+                        Next Project <span class="material-symbols-outlined text-sm">east</span>
+</span>
+<h4 class="font-headline text-3xl md:text-4xl text-on-background opacity-40 group-hover:opacity-100 transition-opacity">Aegean Retreat</h4>
+</a>
+</div>
+</section>
+<!-- Final Inquire Section -->
+<section class="py-40 px-12 text-center bg-surface flex flex-col items-center">
+<h3 class="font-headline text-4xl md:text-6xl text-on-background mb-12">Start your architectural journey.</h3>
+<button class="bg-primary text-on-primary px-16 py-6 text-sm tracking-[0.3em] uppercase hover:bg-primary/90 transition-colors shadow-xl">Inquire</button>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="w-full border-t border-[#cdc6b3]/10 bg-[#dcd9d9] dark:bg-[#121111] flex flex-col md:flex-row justify-between items-center px-12 py-12">
+<div class="text-sm font-black text-[#1c1b1b] dark:text-[#fcf9f8]">MONOLITH</div>
+<div class="flex gap-8 my-8 md:my-0">
+<a class="font-['Manrope'] text-[10px] tracking-[0.15em] uppercase text-[#1c1b1b] dark:text-[#fcf9f8] opacity-50 hover:opacity-100 underline decoration-[#735a3a] transition-all" href="#">Privacy Policy</a>
+<a class="font-['Manrope'] text-[10px] tracking-[0.15em] uppercase text-[#1c1b1b] dark:text-[#fcf9f8] opacity-50 hover:opacity-100 underline decoration-[#735a3a] transition-all" href="#">Terms of Service</a>
+<a class="font-['Manrope'] text-[10px] tracking-[0.15em] uppercase text-[#1c1b1b] dark:text-[#fcf9f8] opacity-50 hover:opacity-100 underline decoration-[#735a3a] transition-all" href="#">Instagram</a>
+<a class="font-['Manrope'] text-[10px] tracking-[0.15em] uppercase text-[#1c1b1b] dark:text-[#fcf9f8] opacity-50 hover:opacity-100 underline decoration-[#735a3a] transition-all" href="#">LinkedIn</a>
+</div>
+<div class="font-['Manrope'] text-[10px] tracking-[0.15em] uppercase text-[#1c1b1b] dark:text-[#fcf9f8] opacity-50">
+            © 2024 MONOLITH ARCHITECTURE. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>
